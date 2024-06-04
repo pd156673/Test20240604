@@ -6,7 +6,8 @@ console.log("Klausur 20240604")
 
 console.log("Aufgabe 1")
 // 1a) Berechnen Sie das Volumen eines Würfels mit Hilfe der Grundrechenoperatoren (+ , - , * , /) , bei dem die Kantenlänge mit der Varablen a festgelegt wird.
-
+console.log ('Volumen = ...')
+let Volumen
 
 
 // 1b) - Nur Klausurschreiber
@@ -24,9 +25,9 @@ console.log("Aufgabe 2")
 
 // 2a)
 // Testschreiber deklarieren pi und initialisieren pi mit dem Wert 3.14.
-
-
-
+let pi = 3.14
+let radius
+let Umfang
 // Klausurschreiber deklarieren pi und initialisieren pi mit dem Wert aus der bekannten Bibliothek namens Math. Geben Sie Math.PI an, um den Wert von Pi in einer Variablen speichern zu können.
 
 
@@ -35,12 +36,13 @@ console.log("Aufgabe 2")
 // 2b)
 // Berechnen Sie Flächeninhalt.
 
-
+console.log ('pi * Radius = ...')
 
 
 
 // 2c)
 // Berechnen Sie den Umfang
+console.log ('2 * pi * Radius = ...')
 
 
 
@@ -48,7 +50,7 @@ console.log("Aufgabe 2")
 
 // 2d)
 // Berechnen Sie den Durchmesser
-
+console.log('2 * Radius = ...')
 
 
 
@@ -67,17 +69,17 @@ console.log("Aufgabe 3")
 
 // 3a)
 // Berechnen Sie den Rabatt in einer sprechenden Variablen. Geben Sie einen Anwortsatz auf der Konsole aus.
-
+console.log('Die Person kriegt ... Rabatt')
 
 
 // 3b)
 // Berechnen Sie den Netto-Rechnungsbetrag in einer sprechenden Variablen. Geben Sie einen Anwortsatz auf der Konsole aus.
-
+console.log('Der Nettobetrag ist ...')
 
 
 // 3c)
 // Berechnen Sie die MwSt in einer sprechenden Variablen. Geben Sie einen Anwortsatz auf der Konsole aus.
-
+console.log('Die Mwst Betragen ...')
 
 
 
@@ -108,7 +110,7 @@ console.log("Aufgabe 4")
 
 // 4a)
 // Ein Kunde nimmst bei einer Bank einen Kredit über 5000 € auf. Die Laufzeit beträgt 6 Monate bei einem Zinssatz von 10%. Berechne die Zinszahlungen, die in diesem Zeitraum anfallen. Arbeiten Sie mit Variablen. Antwortsatz!
-
+console.log('Er muss 500€ an Zinszahlungen abgeben')
 
 
 
@@ -132,18 +134,20 @@ console.log("Aufgabe 5")
 // 5a)
 // Erstellen Sie die notwendigen Variablen und weisen Sie beispielhaft Werte zu. 
 // Erstellen Sie zusätzlich eine Variable für den Namen der Person.
-
-
+let Körpermasse = 74
+let Körperlänge = 1.84
+let BodyMassIndex
+let David
 
 
 // 5b)
 // Führen Sie die Berechnung durch.
-
+console.log('Körpermasse / Körperlänge = BodyMassIndex')
 
 
 // 5c) 
 // Geben Sie den Antwortsatz nach folgendem Muster aus. Die Werte werden aus den Variablen und der vorherigen Berechnung erzeugt: "Pit hat bei einer Körpergröße von 170 cm und einem Körpergewicht von 68 kg einen BMI von 24."
-
+console.log('David hat ein BodyMassIndex von ...')
 
 
 
